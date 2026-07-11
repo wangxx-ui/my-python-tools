@@ -18,9 +18,9 @@ while True:
         break
     phone2 = input('请输入你的联系人号码：')
     email2 = input('请输入你的联系人邮箱：')
-list1 = [name2, phone2, email2]
-dict1 = dict(zip(key,list1))#这个跟前面的用两个列表组装成字典一样
-contacts.append(dict1)#列表中独有的在末尾添加元素方式
+    list1 = [name2, phone2, email2]
+    dict1 = dict(zip(key,list1))#这个跟前面的用两个列表组装成字典一样
+    contacts.append(dict1)#列表中独有的在末尾添加元素方式
 print(contacts)
 tags = set()#目前所学的唯一的创建空集合的方法
 while True:
