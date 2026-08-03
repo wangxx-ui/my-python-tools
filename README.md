@@ -7,7 +7,7 @@
 ## 技术栈
 - Python 基础语法、数据结构、函数、面向对象
 - 文件操作、高阶函数（map/filter/reduce）
-- Git & GitHub 版本控制
+- GitHub 代码管理
 
 ## 作品目录（部分）  更多作品请直接查看本仓库文件列表
 - finance_manager.py - 个人财务管理系统
