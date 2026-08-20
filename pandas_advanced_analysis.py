@@ -70,7 +70,7 @@ df.groupby('客户')['金额'].agg(['size','mean'])
 print(df)
 
 #groupby是一个方法，方法后面要跟上()
-df.groupby('状态')['金额'].agg('size')
+df.groupby('状态').agg('size')
 
 df.query('状态=="已完成" and 金额>=100')
 
